@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String[] args) {
+        Logger[] loggers = {new SmsLogger(), new EmailLogger(), new FileLogger()};
+        CustomerManager customerManager = new CustomerManager(loggers);
+        Customer enes = new Customer(1,"Enes","Büyükbaş");
+        customerManager.add(enes);
+    }
+}
