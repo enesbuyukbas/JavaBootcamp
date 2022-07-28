@@ -5,7 +5,7 @@ import Entities.Customer;
 public class Main {
     public static void main(String[] args) throws Exception {
         BaseCustomerManager customerManager = new NeroCustomerManager();
-        customerManager.save(new Customer(1,"Enes","Büyükbaş", "21953314884"));
+        customerManager.save(new Customer(1,"Enes","Büyükbaş", "12345678912"));
 
     }
 }
